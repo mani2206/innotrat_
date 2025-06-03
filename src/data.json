@@ -1,0 +1,111 @@
+
+{
+  "loginPage": {
+    "illustrationAlt": "Welcome to Innoview Illustration",
+    "illustrationSrc": "https://via.placeholder.com/400x300/a7b0f5/ffffff?text=Innoview+Login+Illustration",
+    "welcomeMessage": "Welcome To Innoview",
+    "welcomeSubtext": "Creating job opportunities simplified and made accessible for everyone",
+    "formTitle": "Login",
+    "inputFields": [
+      {
+        "id": "emailOrPhone",
+        "label": "Email id/Phone No.",
+        "type": "text",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "id": "password",
+        "label": "Password",
+        "type": "password",
+        "placeholder": "",
+        "required": true
+      }
+    ],
+    "checkboxes": [
+      {
+        "id": "keepLoggedIn",
+        "label": "Keep Me Logged In"
+      }
+    ],
+    "links": [
+      {
+        "text": "Forgot Password?",
+        "href": "/forgot-password",
+        "className": "text-sm text-blue-600 hover:underline"
+      }
+    ],
+    "buttons": [
+      {
+        "id": "loginButton",
+        "text": "Login",
+        "type": "submit",
+        "className": "w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+      }
+    ],
+    "footerText": "Don't Have An Account? ",
+    "footerLink": {
+      "text": "Register",
+      "href": "/register",
+      "className": "text-blue-600 hover:underline"
+    }
+  },
+  "jobOpportunitiesPage": {
+    "logoText": "INN TRAT",
+    "sidebarLinks": [
+      { "id": "logo", "text": "Logo", "icon": "fa-solid fa-house" },
+      { "id": "institutionId", "text": "Institution ID", "icon": "fa-solid fa-building" },
+      { "id": "jobOpportunities", "text": "Job Opportunities", "icon": "fa-solid fa-briefcase", "active": true },
+      { "id": "registeredCandidates", "text": "Registered Candidates", "icon": "fa-solid fa-users" },
+      { "id": "myProfile", "text": "My Profile", "icon": "fa-solid fa-user" }
+    ],
+    "headerTitle": "innotrat",
+    "searchInputPlaceholder": "Search by job title..",
+    "jobListings": [
+      {
+        "id": "J3OC38-1",
+        "title": "J3OC38- Embedded engineer",
+        "company": "Innovatrat Private Limited",
+        "postedBy": "Name",
+        "postedDaysAgo": "15 days ago",
+        "experience": "0-5yrs",
+        "location": "Berhampur, odisha",
+        "applicants": 2,
+        "tags": ["Full-time", "Hybrid", "Active"]
+      },
+      {
+        "id": "J3OC38-2",
+        "title": "J3OC38- Embedded engineer",
+        "company": "Innovatrat Private Limited",
+        "postedBy": "Name",
+        "postedDaysAgo": "15 days ago",
+        "experience": "0-5yrs",
+        "location": "Berhampur, odisha",
+        "applicants": 2,
+        "tags": ["Full-time", "Hybrid", "Active"]
+      },
+      {
+        "id": "J3OC38-3",
+        "title": "J3OC38- Embedded engineer",
+        "company": "Innovatrat Private Limited",
+        "postedBy": "Name",
+        "postedDaysAgo": "15 days ago",
+        "experience": "0-5yrs",
+        "location": "Berhampur, odisha",
+        "applicants": 2,
+        "tags": ["Full-time", "Hybrid", "Active"]
+      },
+      {
+        "id": "J3OC38-4",
+        "title": "J3OC38- Embedded engineer",
+        "company": "Innovatrat Private Limited",
+        "postedBy": "Name",
+        "postedDaysAgo": "15 days ago",
+        "experience": "0-5yrs",
+        "location": "Berhampur, odisha",
+        "applicants": 2,
+        "tags": ["Full-time", "Hybrid", "Active"]
+      }
+    ]
+  }
+}
